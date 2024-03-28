@@ -13,11 +13,11 @@ public class TASK1 {
 		{
 		Random dice = new Random();
         int number;
-		number= 1+dice.nextInt(10);
+		number= 1+dice.nextInt(100);
 	//	System.out.print(number +" ");
 		int x;
 		while(true)
-		{		System.out.println("PLEASE GUESS THE NUMBER BETWEEN 1 TO 10");
+		{		System.out.println("PLEASE GUESS THE NUMBER BETWEEN 1 TO 100");
 			x= sc.nextInt();
 		     if(x==number){
 		    System.out.println("YOUR GUESSED NUMBER IS CORRECT "+ "in " + attempt + " Attempt");
